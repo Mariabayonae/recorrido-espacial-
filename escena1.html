@@ -6,7 +6,7 @@
     <title>Escena 1</title>
 
 ```
-<!-- Tipografía futurista -->
+<!-- Tipografía -->
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 ```
 
@@ -15,11 +15,12 @@
 <body style="
     margin:0;
     height:100vh;
-    background: url('assets/Nave1.jpeg');
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
+                url('assets/fondo1.jpg');
     background-size: cover;
     background-position: center;
     font-family: 'Orbitron', sans-serif;
-    color:#00f7ff;
+    color:#e0e0e0;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -29,36 +30,41 @@
 
 ```
 <h1 style="
-    text-shadow:0 0 15px #00f7ff; 
-    margin-bottom:10px;
+    color:#ff4d4d;
+    text-shadow:0 0 10px #ff0000;
+    margin-bottom:20px;
 ">
-    Puerta de acceso
+    Acceso a la estación
 </h1>
 
-<p style="
-    color:#ccefff; 
-    max-width:500px;
-    margin-bottom:30px;
-">
-    La compuerta se abre lentamente. El interior de la estación está en silencio total.
+<p style="max-width:600px; margin-bottom:10px;">
+    Recibes una señal débil desde el interior de la estación.
 </p>
 
-<!-- BOTÓN A ESCENA 2 -->
+<p style="max-width:600px; margin-bottom:10px;">
+    No hay registros recientes… debería estar completamente abandonada.
+</p>
+
+<p style="max-width:600px; margin-bottom:30px;">
+    Aun así, decides entrar. La compuerta se abre lentamente.
+</p>
+
+<!-- BOTÓN SIGUIENTE -->
 <a href="escena2.html" style="
-    margin:10px; 
-    padding:10px 20px;
-    border:1px solid #00f7ff; 
-    color:#00f7ff;
-    text-decoration:none; 
-"> 
-    Entrar 
+    margin:10px;
+    padding:12px 25px;
+    border:1px solid #ff4d4d;
+    color:#ff4d4d;
+    text-decoration:none;
+">
+    Entrar
 </a>
 
-<!-- BOTÓN VOLVER AL INICIO -->
+<!-- BOTÓN VOLVER -->
 <a href="index.html" style="
-    margin:10px; 
-    color:#888;
-    text-decoration:none; 
+    margin:10px;
+    color:#aaaaaa;
+    text-decoration:none;
 ">
     Volver al inicio
 </a>
