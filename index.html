@@ -1,54 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Estación Orbital</title>
+
+```
 <!-- Tipografía futurista -->
- <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
- <!-- VIDEO DE FONDO -->
-  <video autoplay muted loop playsinline
-  style="
-  position: fixed; 
-  top:0; 
-  left:0;
-  width:100%; 
-  height:100%;
-  object-fit: cover; 
-  z-index:-1;
-  ">
- <source src="assets/spaceship.mp4" type="video/mp4"> </video>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+```
+
+</head>
+
+<body style="margin:0; overflow:hidden; font-family: 'Orbitron', sans-serif; color:#e0e0e0;">
+
+```
+<!-- VIDEO DE FONDO -->
+<video autoplay muted loop playsinline
+    style="
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    z-index:-1;
+">
+    <source src="assets/Escena 1 nave.jpeg" type="video/mp4">
 </video>
 
-<!-- CAPA OSCURA + CONTENIDO -->
- <div style="
- height:100vh; 
- display:flex;
- flex-direction:column; 
- justify-content:center;
- align-items:center; 
- text-align:center;
- background: rgba(0,0,0,0.6);
- ">
- <h1 style="
- font-size:48px; 
- text-shadow:0 0 20px #f2f6f700;
-  margin-bottom:10px;
-  ">
-  ESTACIÓN ORBITAL ABANDONADA
- </h1>
- <p style=" 
- color:#ccefff; 
- font-size:18px; 
- margin-bottom:40px;
- "> 
- Recibes una señal desde una estación perdida en el espacio...
- </p>
- <a href="escena1.html" style=" 
- padding:15px 30px;
- border:2px solid #98dcde00;
- color:#7ad2d500; 
- text-decoration:none;
- font-size:18px; 
- transition:0.3s;
- "
- onmouseover="this.style.background='#00f7ff'; this.style.color='#001020';"
- onmouseout="this.style.background='transparent'; this.style.color='#00f7ff';"
- >
-Ingresar a la estación
-</a>
-</div> 
+<!-- CAPA OSCURA -->
+<div style="
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background: rgba(0,0,0,0.6);
+">
+
+    <h1 style="
+        font-size:48px;
+        color:#ff4d4d;
+        text-shadow:0 0 20px #ff0000;
+        margin-bottom:15px;
+    ">
+        ESTACIÓN ORBITAL ABANDONADA
+    </h1>
+
+    <p style="
+        max-width:600px;
+        font-size:18px;
+        line-height:1.5;
+        color:#cccccc;
+        margin-bottom:40px;
+    ">
+        Recibes una señal débil desde una estación olvidada en el espacio.<br><br>
+        No hay registros recientes… debería estar completamente vacía.<br>
+        Aun así, decides acercarte.
+    </p>
+
+    <a href="escena1.html" style="
+        padding:15px 30px;
+        border:2px solid #ff4d4d;
+        color:#ff4d4d;
+        text-decoration:none;
+        font-size:18px;
+        transition:0.3s;
+    "
+    onmouseover="this.style.background='#ff4d4d'; this.style.color='black';"
+    onmouseout="this.style.background='transparent'; this.style.color='#ff4d4d';"
+    >
+        Ingresar a la estación
+    </a>
+
+</div>
+```
+
+</body>
+
+</html>
