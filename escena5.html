@@ -18,7 +18,6 @@
             overflow:hidden;
         }
 
-        /* Texto principal */
         h1 {
             color:#ff4d4d;
             text-shadow:0 0 10px #ff0000;
@@ -30,18 +29,17 @@
             margin-bottom:10px;
         }
 
-        a.button {
+        a.back {
             margin:10px;
             padding:12px 25px;
-            border:1px solid #ff4d4d;
-            color:#ff4d4d;
+            border:1px solid #aaaaaa;
+            color:#aaaaaa;
             text-decoration:none;
         }
     </style>
 </head>
 <body>
 
-    <!-- Video de fondo-->
     <video autoplay muted playsinline style="
         position:fixed;
         top:0;
@@ -55,7 +53,6 @@
         <source src="assets/puerta final.mp4" type="video/mp4">
     </video>
 
-    <!-- Fondo final después del video (foto) -->
     <div style="
         position:fixed;
         top:0;
@@ -67,16 +64,13 @@
         filter: brightness(0.4) contrast(1.2) sepia(0.4);
     "></div>
 
-    <!-- Texto de la escena -->
     <h1>¡Alarma activada!</h1>
     <p>El cuarto de máquinas empieza a retumbar y las luces parpadean con intensidad.</p>
     <p>La señal ha alcanzado su pico y ahora todo indica peligro inminente.</p>
     <p>Debes salir rápidamente antes de que algo falle o explote.</p>
 
-    <!-- Botón para escapar -->
-    <a href="final.html" class="button">Salir corriendo</a>
+    <a href="escena4.html" class="back">Volver atrás</a>
 
-    <!-- Audio de alarma -->
     <audio autoplay loop>
         <source src="assets/alarma.mp3" type="audio/mpeg">
         Tu navegador no soporta audio.
